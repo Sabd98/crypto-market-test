@@ -39,11 +39,11 @@ function App() {
           </div>
 
           <nav className="flex items-center space-x-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
-              Login
+            <button className="border-[#D57C17] border-2 hover:bg-gray-600 text-white px-4 py-2 rounded-3xl text-sm font-medium transition-colors">
+              SIGN IN
             </button>
-            <button className="hidden md:block bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
-              Daftar
+            <button className="hidden md:block border-[#D57C17] border-2 hover:bg-gray-600 text-white px-4 py-2 rounded-3xl text-sm font-medium transition-colors">
+             SIGN UP
             </button>
           </nav>
         </div>
