@@ -28,7 +28,6 @@ const FavoriteTable = () => {
       highest: "102,451.34 / Rp 94,288.07",
       volume: "Rp 31,953.008T",
     },
-    // ... data lainnya
   ];
 
   return (

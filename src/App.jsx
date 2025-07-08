@@ -10,7 +10,12 @@ function App() {
       <header className="bg-[#13213F]/20 py-4 px-6">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
-            <div className="text-white font-bold text-xl mr-8">Logo</div>
+            <img
+              src="/image3.png"
+              alt="Crypto Logo"
+              className="h-12 w-12 mr-6"
+            />
+
             <div className="hidden md:flex space-x-6">
               <a
                 href="#"
