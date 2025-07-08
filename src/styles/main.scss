@@ -1,0 +1,27 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(rgb(0, 5, 17),rgb(2, 21, 69));
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+// Responsive table
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
