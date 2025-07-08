@@ -44,7 +44,7 @@ function App() {
         </div>
       </header>
       {/* Main Content */}
-      <main className="container mx-auto">
+      <main className="container mx-auto p-4">
         <MarketSection />
         <FavoriteTable />
       </main>
